@@ -1,0 +1,21 @@
+
+.lg_padding {
+    -fx-padding:14;
+    -fx-spacing: 10;
+}
+.md_padding {
+    -fx-padding:10;
+    -fx-spacing: 8;
+}
+.sm_padding {
+    -fx-padding:4;
+    -fx-spacing: 4;
+}
+.xs_padding {
+    -fx-padding:2;
+    -fx-spacing: 2;
+}
+.title {
+    -fx-font-family: sans-serif;
+    -fx-font-size:22;
+}

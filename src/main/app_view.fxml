@@ -1,0 +1,20 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" styleClass="sm_padding" fx:controller="main.AppController" >
+    <top>
+        <HBox styleClass="sm_padding" fx:id="nav_buttons">
+            <Button fx:id="btn_calendar">Calendar</Button>
+            <Button fx:id="btn_customers">Customers</Button>
+            <Button fx:id="btn_reports">Reports</Button>
+
+        </HBox>
+    </top>
+    <center>
+        <VBox fx:id="content_node">
+
+        </VBox>
+    </center>
+
+</BorderPane>

@@ -1,0 +1,37 @@
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<BorderPane styleClass="lg_padding" xmlns:fx="http://javafx.com/fxml">
+
+    <top><Label styleClass="title">Schedule an Appointment</Label></top>
+    <center>
+        <VBox>
+            <Label fx:id="appointment_date"></Label>
+            <Label>Time:</Label>
+            <HBox>
+                <ComboBox fx:id="time_hour" promptText="hour">
+                    <items></items>
+                </ComboBox>
+
+                <ComboBox fx:id="time_minute" promptText="minute">
+                    <items></items>
+                </ComboBox>
+
+                <ComboBox fx:id="time_ampm" promptText="am/pm">
+                    <items></items>
+                </ComboBox>
+            </HBox>
+            <Label>Choose customer</Label>
+            <ComboBox fx:id="customer" promptText="choose">
+                <items></items>
+            </ComboBox>
+            <Button fx:id="add_appointment" text="Create Appointment"></Button>
+        </VBox>
+
+
+    </center>
+</BorderPane>
